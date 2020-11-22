@@ -6,7 +6,7 @@ RUN apk add --no-cache curl build-base openssl openssl-dev zlib-dev linux-header
 RUN mkdir nginx nginx-vod-module
 
 ARG NGINX_VERSION=1.19.3.1
-ARG VOD_MODULE_VERSION=399e1a0ecb5b0007df3a627fa8b03628fc922d5e
+ARG VOD_MODULE_VERSION=4d269556334b681b93613b67dd8f69605230b6e8
 ARG NGINX_CONFIG_ARGS=
 ARG MAKE_ARGS=
 
